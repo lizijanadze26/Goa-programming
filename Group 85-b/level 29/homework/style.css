@@ -1,0 +1,35 @@
+button{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(173, 235, 214);
+}
+body{
+    background-color:rgb(215, 223, 223);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2{
+    font-family: sans-serif;
+ color: light rgb(194, 192, 192);
+}
+.h2{
+    background-color:  rgb(179, 1, 1);
+    display: inline;
+}
+.h3{
+    background-color: rgb(1, 107, 1);
+    display: inline;
+}
+.h4{
+    background-color: rgb(221, 221, 2);
+    display: inline;
+}

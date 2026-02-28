@@ -1,0 +1,35 @@
+nav{
+    text-align: center;
+}
+a{
+    color: darkgray;
+}
+div{
+    text-align: center;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.p1 {
+  color: green;
+}
+
+.p2 {
+  color: #b22222;
+}
+
+ol, ul {
+  background-color: #fff;
+}
+

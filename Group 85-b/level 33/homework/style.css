@@ -1,0 +1,46 @@
+.div1{
+    padding: 20px;
+    border: solid 3px black;
+    text-align: center;
+}
+.div2{
+    padding: 20px 0px 20px 0px;
+    border: solid 3px blue;
+    margin-top: 20px;
+    text-align: center;
+}
+.div3{
+    padding: 10px 15px 25px 20px;
+    border: solid 4px red;
+    text-align: center;
+    margin-top: 20px;
+}
+.div4{
+    margin: 15px;
+    border: solid 4px green;
+    text-align: center;
+}
+.div5{
+    margin: 20px 0px 20px 0px;
+    border: solid 3px orange;
+    text-align: center;
+}
+.div6{
+    margin: 10px 15px 25px 20px;
+    border: solid 4px purple;
+    text-align: center;
+}
+.div7{
+    border: dashed 2px black;
+    padding: 30px;
+}
+.div8{
+    border: solid 30px blue;
+    padding: 20px;
+    margin-top: 20px;
+}
+.div9{
+    padding: 10px;
+    margin: 20px;
+    border: dashed 5px green;
+}

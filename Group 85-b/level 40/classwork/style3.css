@@ -1,0 +1,5 @@
+div{
+    background:linear-gradient(90deg, purple, orange, green);
+    width: 500px;
+    height: 500px;
+}

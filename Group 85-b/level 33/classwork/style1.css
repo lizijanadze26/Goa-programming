@@ -1,0 +1,37 @@
+.div1{
+    color: red;
+    background-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+.div2{
+    background-color: brown;
+    border: solid 10px green;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
+.div3{
+    border: dashed 4px purple;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+    color: pink;
+}
+.div4{
+    margin: 40px;
+    border: solid 5px black;
+    width: 400px;
+    height: 400px;
+}
+.div5{
+    border: solid 5px black;
+     width: 400px;
+    height: 400px;
+    margin: 40px;
+}

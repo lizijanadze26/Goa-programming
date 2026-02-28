@@ -1,0 +1,26 @@
+.div1{
+    display: flex;
+    gap: 20px;
+}
+.div2{
+    flex-direction: column;
+}
+.div3{
+    display: flex;
+gap: 20px;
+justify-content: flex-end;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+}
+.div5{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div6{
+     display: flex;
+  flex-wrap: wrap;  
+  gap: 15px;
+}

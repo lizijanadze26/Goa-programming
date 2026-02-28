@@ -1,0 +1,99 @@
+.conteiner{
+    display: flex;
+}
+.div1{
+    width: 100px;
+    border: solid 2px black;
+
+
+}
+.conteiner2{
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    border: solid 5px red;
+    width: 200px;
+}
+.conteiner3{
+    justify-content: space-between;
+    display: flex;
+}
+.conteiner4{
+    display: flex;
+    align-items: flex-start;
+     gap: 50px;
+}
+h2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.conteiner5{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: solid 1px black;
+}
+.div5{
+    width: 150px;
+    border: 2px solid orange;
+    gap: 50px;
+
+}
+.conteiner6{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.div6{
+    width: 50px;
+    background-color: aquamarine;
+
+}
+.conteiner7{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: aquamarine;
+    
+}
+.div7{
+    color: rgb(56, 52, 46);
+    
+}
+.conteiner8{
+     display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: greenyellow;
+}
+.conteiner9{
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid orangered;
+}
+.conteiner10{
+    display: flex;
+justify-content: center;
+    gap: 10px;
+    height: 150px;
+}
+.div10{
+    width: 50px;
+    background-color: rgb(165, 82, 82);
+    
+}
+.div11{
+    width: 80px;
+    background-color: rgb(76, 76, 139);
+}
+.div12{
+    width: 40px;
+    background-color: rgb(4, 77, 77);
+}
+.conteiner11{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
