@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: 60px 120px 180px; 
+  grid-template-rows: 60px 60px;
+  border: 4px solid green;
+  width: max-content;
+}
+
+.grid div {
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

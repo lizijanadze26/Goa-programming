@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+body {
+    font-family: Arial;
+}
+
+
+.header {
+    display: flex;
+}
+
+.logo {
+    background: rgb(18, 18, 116);
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    background: rgb(245, 6, 6);
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.hero {
+    background:rgb(76, 152, 199);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.content {
+    display: flex;
+}
+
+.main {
+    background: rgb(55, 102, 57);
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.side {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background: rgb(125, 255, 205);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.extra {
+    background: rgb(0, 206, 209);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner {
+    background: yellow;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 600px;
+  height: 200px;
+  border: 15px solid green;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+
+  background-color: green;
+  margin: 50px auto; 
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+}
