@@ -1,0 +1,28 @@
+<!--შექმენი პროგრამა, რომელიც ამოწმებს მომხმარებლის სახელს და პაროლს:
+თუ სახელი "admin" და პაროლი "12345" → "მოგესალმებით, მიხარია რომ დაბრუნდით!"
+თუ სახელი სწორია, მაგრამ პაროლი არასწორია → "პაროლი არასწორია!"
+თუ სახელი არასწორია → "მომხმარებელი ვერ მოიძებნა!"-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let username = "admin";
+        let password = 12345;
+
+        if (username && password ) {
+            console.log ("mogesalmebit mixaria rom dabrundit")
+        } else if (username  && !password  ) {
+            console.log("paroli arasworia")
+        } else if (!username) {
+            console.log("momxmarebeli ver moizebna")
+        }
+
+    </script>
+</body>
+</html>
