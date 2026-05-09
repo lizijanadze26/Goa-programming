@@ -1,0 +1,31 @@
+<!--```<div class="card"><h2>Title</h2><button class="buy">Buy Now</button>
+</div>
+
+<div class="card">
+  <h2>Title Only</h2>
+</div>``` - გამოიყენეთ სელექტორი, რომელიც აყვითლებს ტექსტს, თუ მაგ. card-ს არ გააჩნია button თეგი-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            color: yellow;
+        }
+        .card:has(button) {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Title</h2>
+        <button class="buy">Buy Now</button>
+</div>
+<div class="card">
+  <h2>Title Only</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--შექმენით რაიმე ელემენტი, ჯერ ჩავიდეს ქვემოთ 200 პიქსელით, მარჯვნიც 500 პიქსელით, ზომა 1.5ჯერ გაიზარდოს, დატრიალდეს 360 გრადუსით და დაუბრუნდეს საწყის პოზიციას-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes move {
+            0% {
+                transform: translate(0, 0) scale(1) rotate(0deg);
+            }
+            25% {
+                transform: translate(0, 200px) scale(1) rotate(90deg);
+            }
+            50% {
+                transform: translate(500px, 200px) scale(1.5) rotate(180deg);
+            }
+            75% {
+                transform: translate(500px, 200px) scale(1.5) rotate(270deg);
+            }
+            100% {
+                transform: translate(0, 0) scale(1) rotate(360deg);
+            }
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: move 4s;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
