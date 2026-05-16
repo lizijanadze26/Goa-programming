@@ -1,0 +1,26 @@
+<!--დაწერეთ სელექტორი, რომელიც შეცვლის ტექსტის ფერს ნებისმიერ p თეგზე, რომელიც მოთავსებულია header-ში, main-ში ან footer-ში. გამოიყენეთ :is().-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    :is(header, main, footer) p {
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <p>This is a paragraph in the header.</p>
+    </header>
+    <main>
+        <p>This is a paragraph in the main section.</p>
+    </main>
+    <footer>
+        <p>This is a paragraph in the footer.</p>
+    </footer>
+
+</body>
+</html>
